@@ -1,55 +1,502 @@
 <!DOCTYPE html>
-<html lang="pt-BR">    
+<html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lanchonete Sabor da Vila</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Lanchonete Sabor da Vila — hambúrgueres, porções e bebidas preparados na hora."
+  >
+
+  <title>Sabor da Vila | Lanchonete</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="topo">
-    <h1>Lanchonete Sabor da Vila</h1>
-    <p>O melhor lanche do bairro, feito na hora</p>
+
+  <!-- =========================
+       CABEÇALHO
+  ========================== -->
+
+  <header class="hero">
+
+    <nav class="navbar">
+
+      <div class="logo">
+        🍔 Sabor da Vila
+      </div>
+
+      <a
+        class="nav-button"
+        href="https://wa.me/5515999999999?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido."
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Pedir agora
+      </a>
+
+    </nav>
+
+    <div class="hero-content">
+
+      <span class="badge">🔥 Feito na hora</span>
+
+      <h1>
+        O sabor que<br>
+        <span>você estava procurando.</span>
+      </h1>
+
+      <p>
+        Hambúrgueres artesanais, porções e bebidas
+        preparados com carinho para deixar seu dia melhor.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a
+          class="button primary"
+          href="https://wa.me/5515999999999?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          📱 Fazer pedido
+        </a>
+
+        <a class="button secondary" href="#cardapio">
+          Ver cardápio
+        </a>
+
+      </div>
+
+    </div>
+
   </header>
 
+
+  <!-- =========================
+       CONTEÚDO PRINCIPAL
+  ========================== -->
+
   <main>
-    <section aria-labelledby="sobre-nos">
-      <h2 id="sobre-nos">Sobre Nós</h2>
-      <p>
-        A Lanchonete Sabor da Vila nasceu para trazer sabor, rapidez e qualidade para o seu dia a dia. 
-        Trabalhamos com ingredientes selecionados e preparo artesanal para garantir o melhor lanche a cada pedido.
-      </p>
+
+
+    <!-- SOBRE -->
+
+    <section class="section about" id="sobre">
+
+      <div class="section-title">
+
+        <span>CONHEÇA A GENTE</span>
+
+        <h2>Feito para matar a fome.</h2>
+
+      </div>
+
+      <div class="about-content">
+
+        <p>
+          A <strong>Sabor da Vila</strong> nasceu com uma missão simples:
+          preparar comida gostosa, caprichada e feita na hora.
+        </p>
+
+        <p>
+          Trabalhamos com ingredientes selecionados e preparo artesanal
+          para entregar aquele sabor de lanchonete que dá vontade de
+          pedir de novo.
+        </p>
+
+      </div>
+
     </section>
 
-    <section aria-labelledby="cardapio" class="lanches">
-      <h2 id="cardapio">Cardápio</h2>
-      <ul>
-        <li>X-Burger</li>
-        <li>X-Salada</li>
-        <li>X-Bacon</li>
-        <li>Batata Frita</li>
-        <li>Refrigerantes e Sucos</li>
-      </ul>
+
+    <!-- DESTAQUES -->
+
+    <section class="section highlights">
+
+      <div class="highlight-card">
+        <div class="highlight-icon">🍔</div>
+        <h3>Feito na hora</h3>
+        <p>Seu pedido preparado na hora, com ingredientes frescos.</p>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-icon">⚡</div>
+        <h3>Pedido rápido</h3>
+        <p>Faça seu pedido diretamente pelo WhatsApp.</p>
+      </div>
+
+      <div class="highlight-card">
+        <div class="highlight-icon">❤️</div>
+        <h3>Feito com carinho</h3>
+        <p>Qualidade e sabor em cada pedido.</p>
+      </div>
+
     </section>
 
-    <section aria-labelledby="horario">
-      <h2 id="horario">Horário de Funcionamento</h2>
-      <p>Segunda a Sexta: 10h às 22h</p>
-      <p>Sábado e Domingo: 12h às 23h</p>
+
+    <!-- CARDÁPIO -->
+
+    <section class="section menu" id="cardapio">
+
+      <div class="section-title center">
+
+        <span>NOSSO CARDÁPIO</span>
+
+        <h2>Escolha seu favorito.</h2>
+
+        <p>
+          Alguns dos nossos queridinhos.
+        </p>
+
+      </div>
+
+
+      <div class="menu-grid">
+
+
+        <!-- X-BURGER -->
+
+        <article class="menu-card">
+
+          <div class="food-icon">🍔</div>
+
+          <div class="menu-info">
+
+            <h3>X-Burger</h3>
+
+            <p>
+              Hambúrguer, queijo, alface, tomate e molho especial.
+            </p>
+
+            <div class="menu-bottom">
+
+              <strong>R$ 18,90</strong>
+
+              <a
+                href="https://wa.me/5515999999999?text=Olá!%20Gostaria%20de%20pedir%20um%20X-Burger."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pedir
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- X-SALADA -->
+
+        <article class="menu-card">
+
+          <div class="food-icon">🥪</div>
+
+          <div class="menu-info">
+
+            <h3>X-Salada</h3>
+
+            <p>
+              Hambúrguer, queijo, presunto, alface, tomate e molho.
+            </p>
+
+            <div class="menu-bottom">
+
+              <strong>R$ 21,90</strong>
+
+              <a
+                href="https://wa.me/5515999999999?text=Olá!%20Gostaria%20de%20pedir%20um%20X-Salada."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pedir
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- X-BACON -->
+
+        <article class="menu-card featured">
+
+          <div class="popular">MAIS PEDIDO</div>
+
+          <div class="food-icon">🥓</div>
+
+          <div class="menu-info">
+
+            <h3>X-Bacon</h3>
+
+            <p>
+              Hambúrguer, queijo, bacon crocante, alface e molho especial.
+            </p>
+
+            <div class="menu-bottom">
+
+              <strong>R$ 24,90</strong>
+
+              <a
+                href="https://wa.me/5515999999999?text=Olá!%20Gostaria%20de%20pedir%20um%20X-Bacon."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pedir
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- BATATA -->
+
+        <article class="menu-card">
+
+          <div class="food-icon">🍟</div>
+
+          <div class="menu-info">
+
+            <h3>Batata Frita</h3>
+
+            <p>
+              Porção de batata frita crocante acompanhada de molho especial.
+            </p>
+
+            <div class="menu-bottom">
+
+              <strong>R$ 15,90</strong>
+
+              <a
+                href="https://wa.me/5515999999999?text=Olá!%20Gostaria%20de%20pedir%20uma%20Batata%20Frita."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pedir
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- BEBIDA -->
+
+        <article class="menu-card">
+
+          <div class="food-icon">🥤</div>
+
+          <div class="menu-info">
+
+            <h3>Refrigerante</h3>
+
+            <p>
+              Refrigerante gelado para acompanhar seu lanche.
+            </p>
+
+            <div class="menu-bottom">
+
+              <strong>R$ 6,00</strong>
+
+              <a
+                href="https://wa.me/5515999999999?text=Olá!%20Gostaria%20de%20pedir%20um%20Refrigerante."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pedir
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- SUCO -->
+
+        <article class="menu-card">
+
+          <div class="food-icon">🧃</div>
+
+          <div class="menu-info">
+
+            <h3>Suco Natural</h3>
+
+            <p>
+              Suco natural preparado na hora.
+            </p>
+
+            <div class="menu-bottom">
+
+              <strong>R$ 8,00</strong>
+
+              <a
+                href="https://wa.me/5515999999999?text=Olá!%20Gostaria%20de%20pedir%20um%20Suco%20Natural."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pedir
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
     </section>
 
-    <section aria-labelledby="contato">
-      <h2 id="contato">Contato</h2>
-      <p>Bairro Centro</p>
-      <p>
-        Peça pelo WhatsApp: 
-        <a href="https://wa.me/5515999999999" target="_blank" rel="noopener noreferrer">(15) 9999-9999</a>
-      </p>
+
+    <!-- CHAMADA -->
+
+    <section class="cta">
+
+      <div>
+
+        <span>🍔 BATEU A FOME?</span>
+
+        <h2>
+          Então não espera.
+        </h2>
+
+        <p>
+          Faça seu pedido pelo WhatsApp.
+        </p>
+
+      </div>
+
+      <a
+        class="button primary"
+        href="https://wa.me/5515999999999?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido."
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        📱 Pedir pelo WhatsApp
+      </a>
+
     </section>
+
+
+    <!-- HORÁRIO E CONTATO -->
+
+    <section class="section contact" id="contato">
+
+      <div class="section-title center">
+
+        <span>ONDE ESTAMOS</span>
+
+        <h2>Venha nos visitar.</h2>
+
+      </div>
+
+
+      <div class="contact-grid">
+
+
+        <div class="contact-card">
+
+          <div class="contact-icon">📍</div>
+
+          <h3>Endereço</h3>
+
+          <p>
+            Rua Principal, 100<br>
+            Centro — Sua Cidade
+          </p>
+
+        </div>
+
+
+        <div class="contact-card">
+
+          <div class="contact-icon">🕐</div>
+
+          <h3>Horário</h3>
+
+          <p>
+            Segunda a sexta: 10h às 22h<br>
+            Sábado e domingo: 12h às 23h
+          </p>
+
+        </div>
+
+
+        <div class="contact-card">
+
+          <div class="contact-icon">📱</div>
+
+          <h3>WhatsApp</h3>
+
+          <p>
+            (15) 99999-9999
+          </p>
+
+          <a
+            href="https://wa.me/5515999999999"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Falar conosco
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
   </main>
 
+
+  <!-- =========================
+       RODAPÉ
+  ========================== -->
+
   <footer>
-    <p>&copy; 2026 Lanchonete Sabor da Vila — Todos os direitos reservados.</p>
+
+    <div class="footer-logo">
+      🍔 Sabor da Vila
+    </div>
+
+    <p>
+      Lanches preparados com carinho.
+    </p>
+
+    <div class="footer-line"></div>
+
+    <p class="copyright">
+      &copy; 2026 Sabor da Vila — Todos os direitos reservados.
+    </p>
+
   </footer>
+
+
+  <!-- BOTÃO FLUTUANTE -->
+
+  <a
+    class="whatsapp-float"
+    href="https://wa.me/5515999999999?text=Olá!%20Gostaria%20de%20fazer%20um%20pedido."
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Fazer pedido pelo WhatsApp"
+  >
+    💬
+  </a>
+
 </body>
 </html>
